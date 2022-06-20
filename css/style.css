@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'MADE Tommy Soft', 'Roboto';
+    src: url(../fonts/MADE\ Tommy\ Soft.otf);
+    src: url(../fonts/Roboto.ttf);
+}
+
+body {
+    font-family: 'MADE Tommy Soft Medium', sans-serif; 
+    background-color: #007b5e;
+}
+
+.box {
+    max-width: 1920px; 
+    height: 1000px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 214px;
+    height: 81px;
+    top: 62px;
+    left: 127px;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    text-transform: lowercase;
+    font-size: 26.22px;
+    font-weight: 400;
+    color: #007b5e;
+    margin-right: 115px;
+}
+
+.flex-menu {
+    display: flex;
+    margin-left: 593px;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.menu {
+    display: flex;
+    margin-top: 6px;
+    margin-right: 201px;
+}
+
+.menu li{
+    font-size: 27.11px;
+}
+
+.item {
+    color: #17856e;
+    margin-right: 63px;
+    padding: 5px 5px;
+}
+
+.info {
+    margin-left: -120px;
+}
+
+.social {
+    display: flex;
+    margin-top: 21px;
+    margin-left: 4px;
+}
+
+.icon {
+    padding: 7px 22px;
+}
+
+.instagramm {
+    background-image: url(../img/icons/ins.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 80%;
+    background-position: 2px;
+}
+
+.facebook {
+    background-image: url(../img/icons/fcb.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 80%;
+    background-position: 2px;
+}
+
+.twitter {
+    background-image: url(../img/icons/tw.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 80%;
+    background-position: 2px;
+}
+
+.whatsapp {
+    background-image: url(../img/icons/ws.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 80%;
+    background-position: 2px;
+}
+
+h1 {
+    color: #295e17;
+    font-size: 108.43px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    margin-left: 123px;
+    line-height: 0.13;
+    margin-bottom: 26px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+}
+
+.buttom {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obloko_one {
+    background-image: url(../img/Vector\ Smart\ Object_One.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 149px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.obloko_two {
+    background-image: url(../img/Vector\ Smart\ Object_two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 299px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.obloko_three {
+    background-image: url(../img/Vector\ Smart\ Object_two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 299px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: -29px;
+    margin-right: -67px;
+}
+
+.obloko_four {
+    background-image: url(../img/Vector\ Smart\ Object_two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 299px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 33px;
+    margin-right: -17px;
+}
+
+.obloko_five {
+    background-image: url(../img/Vector\ Smart\ Object_two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 299px;
+    height: 50px;
+    margin: 21px -13px;
+    padding: 0;
+}
+
+
+h2 {
+    margin-top: 5px;
+    margin-left: 128px;
+    color: #17856e;
+    font-size: 49.7px; 
+    font-weight: 100;
+    margin-bottom: -16px;
+}
+
+p {
+    margin-left: 128px;
+    font-family: 'Roboto', sans-serif;
+    color: #17856e;
+    font-size: 27.11px; 
+    width: 675px;
+    margin-bottom: 56px;
+} 
+
+
+
+.button {
+    margin-left: 128px;
+    color: #fff;
+    background-color: #295e17;
+    font-weight: 300;
+    padding: 10px 19px 10px 19px;
+    border-radius: 30%;
+    font-size: 27.11px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid #295e17;
+    transition: 0.3s;
+}
+
+/* псевдокласс */
+.button:hover {
+    color: #295e17;
+    background-color: #fff;
+}
+
+
+.item:hover {
+    color: #fff;
+    background-color: #6eb656;
+    border: 0px solid #6eb656;
+    transition: 0.3s;
+}
+
